@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		517896DF14FEB6CF44E217C3 /* Pods_DotaHeroStat_DotaHeroStatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79760073D8A777AECC042B76 /* Pods_DotaHeroStat_DotaHeroStatUITests.framework */; };
 		8CEC495A06E1C3CD20A964EF /* Pods_DotaHeroStatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0104E41994F5A25247E72E98 /* Pods_DotaHeroStatTests.framework */; };
-		F41076932523120C008373AE /* Heroes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41076922523120C008373AE /* Heroes2.swift */; };
 		F44CEAED251D94AC0019AC29 /* HeroesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CEAEB251D94AC0019AC29 /* HeroesCollectionViewCell.swift */; };
 		F44CEAEE251D94AC0019AC29 /* HeroesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44CEAEC251D94AC0019AC29 /* HeroesCollectionViewCell.xib */; };
 		F44CEAF2251DB8350019AC29 /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CEAF1251DB8350019AC29 /* HeroDetailViewController.swift */; };
@@ -53,7 +52,6 @@
 		79760073D8A777AECC042B76 /* Pods_DotaHeroStat_DotaHeroStatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotaHeroStat_DotaHeroStatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DAA6B10B1F3F60B4C5971E /* Pods-DotaHeroStatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaHeroStatTests.debug.xcconfig"; path = "Target Support Files/Pods-DotaHeroStatTests/Pods-DotaHeroStatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9B4B63072DD348E1A15D7BE /* Pods_DotaHeroStat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DotaHeroStat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F41076922523120C008373AE /* Heroes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes2.swift; sourceTree = "<group>"; };
 		F44CEAEB251D94AC0019AC29 /* HeroesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesCollectionViewCell.swift; sourceTree = "<group>"; };
 		F44CEAEC251D94AC0019AC29 /* HeroesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesCollectionViewCell.xib; sourceTree = "<group>"; };
 		F44CEAF1251DB8350019AC29 /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				F4774E89251C8C390039CECF /* Info.plist */,
 				F4774EAB251C915E0039CECF /* Service.swift */,
 				F4774EAF251CDEC30039CECF /* Heroes.swift */,
-				F41076922523120C008373AE /* Heroes2.swift */,
 				F44CEAF1251DB8350019AC29 /* HeroDetailViewController.swift */,
 			);
 			path = DotaHeroStat;
@@ -434,7 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41076932523120C008373AE /* Heroes2.swift in Sources */,
 				F4774E80251C8C350039CECF /* ViewController.swift in Sources */,
 				F4774EAC251C915E0039CECF /* Service.swift in Sources */,
 				F44CEAF2251DB8350019AC29 /* HeroDetailViewController.swift in Sources */,

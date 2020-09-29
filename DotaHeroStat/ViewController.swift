@@ -70,7 +70,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             self.rolesArray.append(contentsOf: roles)
         }
         self.rolesArray = self.rolesArray.removeDuplicates()
-        print("roles array : \(self.rolesArray)")
         self.buildButtons()
         
     }
@@ -94,7 +93,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             
             self.filterView.addSubview(btn)  // myView in this case is the view you want these buttons added
             }
-
     }
     
     
@@ -108,24 +106,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             var heroHasil = heroes.filter { $0.roles.contains((sender.titleLabel?.text)!) }
             heroes = heroHasil
             heroCollectionVoiew.reloadData()
-        }
-        
-     
-        switch (sender.tag){
-        case 0: break
-            print("1")
-            //button 0 action
-        case 1: break
-            print("2")
-            //button 1 action
-        case 2: break
-            //button 2 action
-        case 3: break
-            //button 3 action
-        case 4: break
-            //button 4 action
-        default: break
-            //default
         }
     }
     
@@ -181,7 +161,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             foo.sort { $0.move_speed > $1.move_speed }
             
             let filteredHero = foo.prefix(upTo: 3)
-            print("top 3 agi: \(filteredHero)")
             img1 = filteredHero[0].img
             img2 = filteredHero[1].img
             img3 = filteredHero[2].img
@@ -190,7 +169,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             foo.sort { $0.move_speed > $1.move_speed }
             
             let filteredHero = foo.prefix(upTo: 3)
-            print("top 3 str: \(filteredHero)")
             img1 = filteredHero[0].img
             img2 = filteredHero[1].img
             img3 = filteredHero[2].img
@@ -199,7 +177,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             foo.sort { $0.move_speed > $1.move_speed }
             
             let filteredHero = foo.prefix(upTo: 3)
-            print("top 3 int: \(filteredHero)")
             img1 = filteredHero[0].img
             img2 = filteredHero[1].img
             img3 = filteredHero[2].img
